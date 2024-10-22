@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which Package?</title>
+    <link rel="stylesheet" href="ps.css">
+</head>
+<body>
+    <div id="inputElements">
+        <h1>Welcome to Find the Right Package!</h1>
+        <label for="proSeats">Enter # of Pro Seats</label>
+        <input type="input" id="proSeats"><br><br>
+
+        <label for="forecastSeats">Enter # of Forecast Seats</label>
+        <input type="input" id="forecastSeats"><br><br>
+
+        <label for="engageSeats">Enter # of Engage Seats</label>
+        <input type="input" id="engageSeats"><br><br>
+
+        <label for="engageRip">Current Outreach/Salesloft Customer?</label>
+        <select id="engageRip">
+            <option value = "NA">N/A</option>
+            <option value = "Outreach">Outreach</option>
+            <option value = "Salesloft">Salesloft</option>
+        </select><br><br>
+
+        <label for="engageMigration">Outreach/Salesloft Template Migration?</label>
+        <select id="engageMigration">
+            <option value = "NA">N/A</option>
+            <option value = "No">No</option>
+            <option value = "Yes">Yes</option>
+        </select><br><br>
+
+        <label for="chorusMigration">Chorus Migration?</label>
+        <select id="chorusMigration">
+            <option value="NA">N/A</option>
+            <option value = "small">Yes less than 10,000 calls</option>
+            <option value = "large">Yes more than 10,000 calls</option>
+        </select><br><br>
+    </div>
+
+    <label for="submitBtn"></label>
+    <button id="submitBtn" class="buttons">submit</button>
+    <button id="resetBtn" class="buttons">reset</button>
+
+    <div class = "pElements">
+        <p id="proRecommendations"></p>
+        <p id="forecastRecommendations"></p>
+        <p id="engageRecommendations"></p>
+        <p id="engageMigrationRecommendations"></p>
+        <p id="chorusMigrationRecommendations"></p>
+        <p id="disclaimer"></p>
+    </div>
+    
+    <script src="ps.js"></script>
+</body>
+</html>
+
+
+<!-- maybe we could build in LLM logic / agent that has the user enter what the customer is trying to do-->

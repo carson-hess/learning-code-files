@@ -1,0 +1,104 @@
+body{
+    font-family: Verdana;
+    font-size: 2em;
+}
+#countLabel{
+    display: block;
+    text-align: center; 
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons{ 
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsl(214, 100%, 74%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{ 
+    background-color: hsl(214, 73%, 31%);
+}
+
+/* Comment in CSS - hover is a pseudo operator */
+
+#myButton{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.myLabels{
+    font-size: 3em;
+} 
+
+.div1{
+    text-align: center;
+}
+
+#mySubmitBtn{
+    font-size: 1em;
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+
+.temperature{
+    font-size: 0.5em;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 3%, 87%);
+}
+
+#h1{
+    color: hsl(218, 64%, 65%)
+}
+
+form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px; /* actually looks pretty good */
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.705);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.labels{
+    font-size: 1.5em;
+    font-weight: bold;   
+}
+
+.button{
+    margin-top: 15px;
+    background-color: red;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover{
+    background-color: rgba(255, 0, 0, 0.633);
+}
+
+#result1{
+    font-size: 1.75em;
+    font-weight: bold;
+}

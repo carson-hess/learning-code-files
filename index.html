@@ -1,0 +1,126 @@
+<!DOCTYPE html> <!--to initialize a HTML file with all the basic attributes, type ! then hit tab or enter-->
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- meta tags go in the header-->
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="keywords" content="HTML, tutorial, beginners">
+    <meta name="author" content="Carson Hess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="200">
+<title>My first website</title> <!-- title of the tab in the browswer-->
+</head>
+<body>
+ <h1>This is my website</h1>
+ <hr> <!-- horizontal row. Self-closing tag -->
+ <br> <!-- line break-->
+ <!-- This is an internal comment for only me-->
+ <h1 style="color: red">I like pizza!</h1>
+ <br>
+ <h2 style="color: #28f005">I like pizza!</h2>
+ <br>
+ <h3 style="color: rgb(5,240,232)">I like pizza!</h3>
+ <br>
+ <h4>I like pizza!</h4>
+ <br>
+ <h5>I like pizza!</h5>
+ <br>
+ <h6>I like pizza!</h6>
+ <br>
+ <p style="background-color: #222222; color:#28f005">This is some sample text</p>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, sunt illum minima, ipsa possimus delectus rerum ab doloremque at consequatur ratione architecto illo doloribus, consectetur sequi incidunt reiciendis? Corporis, consectetur!</p>
+<a href="page2.html" target=_blank title="This takes you to Google">
+    Go to page 2
+</a>
+<a href="https://carsonhessre.com" target=_blank title="This takes you to Carson's website">
+    <img src="/images/new headshot.jpg" height="300" alt="This is a picture of Carson"> <!--when width attribute is blank, it will automatically be proportional to height-->
+</a>
+<!-- adding alt text = good practice for visually impaired-->
+<br>
+<br>
+<video controls muted src="/images/reba.MOV" width="500">
+    <source src="reba.MOV">
+</video>
+
+<p>This is normal text</p>
+<p>This is <b>bold</b> text</p>
+<p>This is <i>italic</i> text</p>
+<p>This is <big>big</big>> text</p>
+<p>This is <small>small</small> text</p>
+<p>This is <sub>subscript</sub> text</p>
+<p>This is <sup>superscript</sup> text</p>
+<p>This is <ins>inserted</ins> text</p>
+<p>This is <del>deleted</del> text</p>
+<p>This is <mark>marked</mark> text</p>
+
+<h4>Unordered List</h4>
+<ul>
+    <li>pizza dough</li>
+    <li>tomato sauce</li>
+    <li>cheese</li>
+    <li>toppings
+        <ul>
+            <li>pepperoni</li> <!-- can nest lists within lists-->
+            <li>mushrooms</li>
+            <li>peppers</li>
+        </ul>
+    </li>
+</ul>
+
+<h4>Ordered List</h4>
+<ol type="A">
+    <li>eat breakfast</li>
+    <li>take shower</li> <!-- unordered list and ordered list both use the <li> list item tag-->
+    <li>leave for work</li>
+</ol>
+
+<h4>Description List</h4>
+<dl>
+    <dt>HTML</dt> <!-- Description title-->
+    <dd>This adds structure to a webpage</dd> <!-- Description definition-->
+    <dt>CSS</dt>
+    <dd>This adds style to a webpage</dd>
+    <dt>JavaScript</dt>
+    <dd>This adds functionality to a webpage</dd>
+</dl>
+
+<h3>Store Hours</h3>
+<table bgcolor="black" width="700"> <!-- color tag for table background-->
+    <tr bgcolor="grey"> <!--Table row tag with background color-->
+        <th width="100">Sunday</th> <!-- Table header tag-->
+        <th width="100">Monday</th>
+        <th width="100">Tuesday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturday</th>
+    </tr>
+    <tr bgcolor="lightgrey" align="center">
+        <td>Closed</td> <!-- Table data tag-->
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>Closed</td>
+    </tr>
+</table>
+
+<!--span = adds markup to text or portion of a document-->
+<p>
+    <span style="color: red">Lorem ipsum dolor sit amet</span> consectetur adipisicing elit. Ad natus, autem laborum dolorem laboriosam eligendi commodi, harum aliquam, repudiandae quod nemo ullam exercitationem iure voluptate. Nesciunt, suscipit. Voluptates, atque perferendis.
+</p>
+<!--div = defines a division of a document...like <hr> horizontal row tag-->
+<div style="background-color:#444444">
+<p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod expedita, dolorem reiciendis voluptate ea provident quam. Sit magnam pariatur repudiandae odio beatae quo porro! Dolorum quis vero quae pariatur placeat?
+</p>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae consequatur veritatis odio enim nobis exercitationem nostrum temporibus voluptatibus, esse similique odit alias eos optio quia natus neque provident pariatur!
+</p>
+</div>
+
+<!--iframe = embed content from another source into an HTML document. ex used for ads, used in many hacking techniques-->
+<iframe style="border:0" src="page2.html"> <!-- most websites won't let you do this, ex Google-->
+</body>
+
+</html>

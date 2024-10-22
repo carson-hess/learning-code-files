@@ -1,0 +1,25 @@
+body{
+    font-size: 1em;
+    font-family: verdana;
+}
+
+.buttons:hover{ 
+    background-color: hsl(214, 73%, 31%);
+}
+
+.buttons{
+    background-color: rgb(198, 80, 205);
+    color: white;
+    size: 1em;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#inputElements{
+    padding: 25px;
+}
+
+.pElements{
+    padding: 5px 15px;   
+}

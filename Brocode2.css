@@ -1,0 +1,263 @@
+h1{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+#myH3{
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0, 30%);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn{
+    background-color: hsl(112, 88%, 40%);
+}
+
+#startBtn:hover{
+    background-color: hsl(112, 88%, 30%);
+}
+
+#stopBtn{
+    background-color: hsl(357, 76%, 50%);
+}
+
+#stopBtn:hover{
+    background-color: hsl(357, 76%, 40%);
+}
+
+#resetBtn{
+    background-color: hsla(235, 82%, 38%, 0.6);
+}
+
+#resetBtn:hover{
+    background-color: hsla(235, 82%, 38%, 0.50);
+}
+
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display2{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsla(0, 2%, 30%, 0.30);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: hsla(0, 2%, 22%, 0.4);;    
+}
+.button:active{
+    background-color: hsla(0, 2%, 22%, 0.5);
+}
+
+#plus{
+    background-color: hsla(29, 87%, 50%, 0.893);
+}
+#plus:hover{
+    background-color: hsla(29, 87%, 60%, 0.893);
+}
+#plus:active{
+    background-color: hsla(29, 87%, 70%, 0.893);
+}
+
+#minus{
+    background-color: hsla(29, 87%, 50%, 0.893);
+}
+#minus:hover{
+    background-color: hsla(29, 87%, 60%, 0.893);
+}
+#minus:active{
+    background-color: hsla(29, 87%, 70%, 0.893);
+}
+
+#times{
+    background-color: hsla(29, 87%, 50%, 0.893);
+}
+#times:hover{
+    background-color: hsla(29, 87%, 60%, 0.893);
+}
+#times:active{
+    background-color: hsla(29, 87%, 70%, 0.893);
+}
+
+#divide{
+    background-color: hsla(29, 87%, 50%, 0.893);
+}
+#divide:hover{
+    background-color: hsla(29, 87%, 60%, 0.893);
+}
+#divide:active{
+    background-color: hsla(29, 87%, 70%, 0.893);
+}
+
+#clear{
+    background-color: hsla(29, 87%, 50%, 0.893);
+}
+#clear:hover{
+    background-color: hsla(29, 87%, 60%, 0.893);
+}
+#clear:active{
+    background-color: hsla(29, 87%, 70%, 0.893);
+}
+
+.box{
+    border: 3px solid;
+    width: 100%;
+    height: 125px;
+}
+
+#barbecue{
+    border: 3px solid;
+    font-size: 2rem;
+}
+
+#myBox{
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#myButton{
+    font-size: 3rem;
+
+}
+
+#myBox1{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.buttons{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgba(173, 216, 230, 0.66);
+    color: white;
+}
+
+.enabled{
+    background-color: rgba(141, 141, 226, 0.838);
+    color: white;   
+}
+
+.hover{
+    box-shadow: 0 0 10px gray;
+    font-weight: bold;
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button {
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px;   
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "brocode3.css">
+</head>
+<body>
+    <div class="choices">
+        <h1>Rock - Paper - Scissors</h1>
+        <button id="rockButton">Rock</button>
+        <button id="paperButton">Paper</button>
+        <button id="scissorsButton">Scissors</button>
+    </div>
+    
+    <div id="playerDisplay">PLAYER: </div>
+    <div id="computerDisplay">COMPUTER: </div>
+    <div id="resultDisplay"></div>
+
+    <!-- Pokemon generator -->
+    <input type = "text" id = "pokemonName" placeholder = "Enter Pokemon name:"> 
+    <button id="pokemonButton" onclick = "fetchData()">Fetch Pokemon</button><br>
+    <img src = "" alt = "Pokemon Sprite" id = "pokemonSprite" style = "display: none">
+
+    <!-- Weather app -->
+    <form class = "weatherForm">
+        <input type = "text" class = "cityInput" placeholder = "Enter City">
+        <button type = "submit">Get Weather</button>
+    </form>
+
+    <div class = "card" style = "none">
+        
+    </div>
+
+    <script src = "brocode3.js"></script>
+</body>
+</html>

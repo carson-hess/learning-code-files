@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carson Code</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="div1">
+        <label>Enter your age</label><br>
+        <input type = "text" id = "myText"><br>
+        <button type = "submit" id = "mySubmit">submit</button><br>
+        <p id = "resultElement"></p>
+    </div>
+    <div class="div2">  
+        <input type="checkbox" id="myCheckBox">
+        <label for="myCheckBox">subscribe</label><br><br>
+        <input type="radio" id="visaBtn" name="card"> 
+        <label for="visaBtn">Visa</label><br>
+
+        <input type="radio" id="masterCardBtn" name="card">
+        <label for="masterCardBtn">MasterCard</label><br>
+
+        <input type="radio" id="payPalBtn" name="card">
+        <label for="payPalBtn">PayPal</label><br><br>
+
+        <button id="mySubmitBtn">submit</button><br>
+        <p id="subResult"></p>
+        <p id="paymentResult"></p>
+    </div>
+    <div class = "temperature">
+        <form>
+            <h1 id="h1">Temperature Conversion:</h1>
+            <input type="number" id="textBox" value="0"><br><br>
+            <input type="radio" id="toFahrenheit" name="unit">
+            <label for="toFahrenheit" class="labels">Celsius to Fahrenheit</label><br><br>
+            <input type="radio" id="toCelsius" name="unit">
+            <label for="toCelsius" class="labels">Fahrenheit to Celsius</label><br><br>
+
+            <button type="button" class="button" onclick="convert()">Submit</button>
+            <!--conclick attribute in HTML. Can be used to call a function-->
+            <p id="result1"></p>
+        </form>
+    </div>
+     
+    <script src="brocode.js"></script>
+</body>
+</html>

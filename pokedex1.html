@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "pokedex1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column" id="leftColumn">
+            <input type="text" id="pokemonName" placeholder="Enter Pokemon name:" class = "leftColumnText"> 
+            <button id="pokemonButton" onclick="fetchDataLeft()">Fetch Pokemon</button><br>
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none" class = "leftColumnText">
+            <br>
+            <button id = "battleButton" onclick = "battlePokemon()">Battle Pokemon</button>
+            <button id="resetButton">Reset</button>
+        </div>
+        <div class="column" id="rightColumn"> 
+            <input type="text" id="pokemonName1" placeholder="Enter Pokemon name:"> 
+            <button id="pokemonButton1" onclick="fetchDataRight()">Fetch Pokemon</button><br>
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite1" style="display: none">
+        </div>
+    </div>
+<script src = "pokedex1.js"></script>
+</body>
+</html>

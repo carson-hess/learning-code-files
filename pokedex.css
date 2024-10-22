@@ -1,0 +1,18 @@
+#myH1{
+    text-align: center;
+}
+
+#myH2{
+    text-align: center;
+}
+
+.catch{
+    text-align: center;
+    padding: 25px;
+}
+
+#pokemonResult{
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
